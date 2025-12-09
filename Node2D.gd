@@ -1,4 +1,10 @@
+
 extends CharacterBody2D
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	print("hi")
 
 
 const SPEED = 300.0
@@ -26,3 +32,4 @@ func _physics_process(delta):
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 
 	move_and_slide()
+
