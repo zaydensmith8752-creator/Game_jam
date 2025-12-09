@@ -1,0 +1,65 @@
+[gd_scene load_steps=6 format=3 uid="uid://csf17hfjbb674"]
+
+[ext_resource type="Texture2D" uid="uid://bpj5cl5n8i4mn" path="res://black-and-white-yin-yang-on-a-white-background-free-vector-removebg-preview.png" id="1_oyqm6"]
+[ext_resource type="FontFile" uid="uid://c1kqtfogophcu" path="res://archaic_asian_inks/Archaic Asian Inks.ttf" id="2_kpexm"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_3xoar"]
+font = ExtResource("2_kpexm")
+font_size = 31
+font_color = Color(0, 0, 0, 1)
+outline_size = 11
+
+[sub_resource type="Theme" id="Theme_mom7w"]
+default_font = ExtResource("2_kpexm")
+default_font_size = 10
+
+[sub_resource type="LabelSettings" id="LabelSettings_7lgly"]
+
+[node name="title" type="Node2D"]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1152.0
+offset_bottom = 648.0
+
+[node name="ColorRect" type="ColorRect" parent="Control"]
+layout_mode = 0
+offset_top = 1.0
+offset_right = 1152.0
+offset_bottom = 649.0
+pivot_offset = Vector2(742, 730)
+
+[node name="ColorRect2" type="ColorRect" parent="Control"]
+layout_mode = 0
+offset_left = -3.0
+offset_top = 1.0
+offset_right = 573.0
+offset_bottom = 649.0
+color = Color(0, 0, 0, 1)
+
+[node name="TextureRect" type="TextureRect" parent="Control"]
+layout_mode = 0
+offset_left = 33.0
+offset_top = -142.0
+offset_right = 1105.0
+offset_bottom = 793.0
+texture = ExtResource("1_oyqm6")
+
+[node name="title" type="Label" parent="Control"]
+layout_mode = 0
+offset_left = 320.0
+offset_top = 74.0
+offset_right = 851.0
+offset_bottom = 136.0
+text = "placeholder"
+label_settings = SubResource("LabelSettings_3xoar")
+
+[node name="Label2" type="Label" parent="Control"]
+layout_mode = 0
+offset_right = 111.0
+offset_bottom = 32.0
+theme = SubResource("Theme_mom7w")
+theme_override_font_sizes/font_size = 22
+text = "start"
+label_settings = SubResource("LabelSettings_7lgly")
