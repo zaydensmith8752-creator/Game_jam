@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-extends Node2D
-
-
-# Called when the node enters the scene tree for the first time.
-func _ready():
-	print("hi")
-=======
 extends CharacterBody2D
 
 
@@ -34,4 +26,4 @@ func _physics_process(delta):
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 
 	move_and_slide()
->>>>>>> b4df9d2d3b27429d9ee14f3ef8c02ec15a7934c9
+	print("penis")
