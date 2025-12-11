@@ -13,6 +13,7 @@ func _physics_process(delta):
 	if direction_X:
 		velocity.x = direction_X * SPEED
 		move1 = true
+		print("move")
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 		move1 = false
@@ -20,6 +21,7 @@ func _physics_process(delta):
 	if direction_Y:
 		velocity.y = direction_Y * SPEED
 		move2 = true
+		print("move")
 	else:
 		velocity.y = move_toward(velocity.y, 0, SPEED)
 		move2 = false
@@ -33,5 +35,4 @@ func _physics_process(delta):
 	if Input.is_action_just_pressed("roll"):
 		SPEED = 750.0
 		
-	print("no")
 	move_and_slide()
