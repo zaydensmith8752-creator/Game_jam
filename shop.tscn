@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+[gd_scene load_steps=5 format=3 uid="uid://opngsuayp4ev"]
+=======
 [gd_scene load_steps=9 format=3 uid="uid://dgwdrs5l3s628"]
+>>>>>>> f0b61583eb1d662487bc155f852529f31fd31c42
 
 [ext_resource type="FontFile" uid="uid://c1kqtfogophcu" path="res://archaic_asian_inks/Archaic Asian Inks.ttf" id="1_f47t3"]
 
