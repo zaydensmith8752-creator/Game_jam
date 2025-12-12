@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://dgwdrs5l3s628"]
+[gd_scene load_steps=11 format=3 uid="uid://dgwdrs5l3s628"]
 
 [ext_resource type="FontFile" uid="uid://c1kqtfogophcu" path="res://archaic_asian_inks/Archaic Asian Inks.ttf" id="1_f47t3"]
 
@@ -71,6 +71,21 @@ Label/font_sizes/font_size = 13
 Label/fonts/font = ExtResource("1_f47t3")
 Label/styles/normal = SubResource("StyleBoxEmpty_oav06")
 
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_4q228"]
+
+[sub_resource type="Theme" id="Theme_05oun"]
+Label/colors/font_color = Color(1, 1, 1, 1)
+Label/colors/font_outline_color = Color(1, 1, 1, 1)
+Label/colors/font_shadow_color = Color(0, 0, 0, 0)
+Label/constants/line_spacing = 3
+Label/constants/outline_size = 0
+Label/constants/shadow_offset_x = 1
+Label/constants/shadow_offset_y = 1
+Label/constants/shadow_outline_size = 1
+Label/font_sizes/font_size = 16
+Label/fonts/font = ExtResource("1_f47t3")
+Label/styles/normal = SubResource("StyleBoxEmpty_4q228")
+
 [node name="shop" type="Node2D"]
 
 [node name="Control" type="Control" parent="."]
@@ -94,6 +109,7 @@ offset_bottom = 148.0
 theme = SubResource("Theme_6cnsq")
 text = "strength +25%/ speed -25%
 		            50 coins "
+metadata/_edit_use_anchors_ = true
 
 [node name="purchase" type="Label" parent="Control"]
 layout_mode = 0
@@ -103,6 +119,7 @@ offset_right = 487.0
 offset_bottom = 199.0
 theme = SubResource("Theme_ch3it")
 text = "press here to purchase"
+metadata/_edit_use_anchors_ = true
 
 [node name="purchase3" type="Label" parent="Control"]
 layout_mode = 0
@@ -112,6 +129,7 @@ offset_right = 1070.0
 offset_bottom = 196.0
 theme = SubResource("Theme_ch3it")
 text = "press here to purchase"
+metadata/_edit_use_anchors_ = true
 
 [node name="purchase4" type="Label" parent="Control"]
 layout_mode = 0
@@ -121,6 +139,7 @@ offset_right = 1084.0
 offset_bottom = 386.0
 theme = SubResource("Theme_ch3it")
 text = "press here to purchase"
+metadata/_edit_use_anchors_ = true
 
 [node name="Button" type="Button" parent="Control"]
 modulate = Color(1, 1, 1, 0)
@@ -129,6 +148,7 @@ offset_left = 73.0
 offset_top = 156.0
 offset_right = 490.0
 offset_bottom = 201.0
+metadata/_edit_use_anchors_ = true
 
 [node name="Button2" type="Button" parent="Control"]
 modulate = Color(1, 1, 1, 0)
@@ -137,6 +157,7 @@ offset_left = 81.0
 offset_top = 350.0
 offset_right = 498.0
 offset_bottom = 395.0
+metadata/_edit_use_anchors_ = true
 
 [node name="Button3" type="Button" parent="Control"]
 modulate = Color(1, 1, 1, 0)
@@ -145,6 +166,7 @@ offset_left = 662.0
 offset_top = 158.0
 offset_right = 1079.0
 offset_bottom = 203.0
+metadata/_edit_use_anchors_ = true
 
 [node name="Button4" type="Button" parent="Control"]
 modulate = Color(1, 1, 1, 0)
@@ -153,6 +175,7 @@ offset_left = 668.0
 offset_top = 347.0
 offset_right = 1083.0
 offset_bottom = 392.0
+metadata/_edit_use_anchors_ = true
 
 [node name="speed" type="Label" parent="Control"]
 layout_mode = 0
@@ -163,6 +186,7 @@ offset_bottom = 332.0
 theme = SubResource("Theme_vg86x")
 text = "speed +25%/ strength -25%
              50 coins"
+metadata/_edit_use_anchors_ = true
 
 [node name="purchase2" type="Label" parent="Control"]
 layout_mode = 0
@@ -172,6 +196,7 @@ offset_right = 494.0
 offset_bottom = 392.0
 theme = SubResource("Theme_m73bi")
 text = "press here to purchase"
+metadata/_edit_use_anchors_ = true
 
 [node name="health" type="Label" parent="Control"]
 layout_mode = 0
@@ -182,6 +207,7 @@ offset_bottom = 135.0
 theme = SubResource("Theme_70uo0")
 text = "health +25% / size +25%
                  50 coins"
+metadata/_edit_use_anchors_ = true
 
 [node name="Label" type="Label" parent="Control"]
 layout_mode = 0
@@ -192,3 +218,42 @@ offset_bottom = 330.0
 theme = SubResource("Theme_70uo0")
 text = "size -25% / health -25%
                  50 coins"
+metadata/_edit_use_anchors_ = true
+
+[node name="Label2" type="Label" parent="Control"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -55.5
+offset_top = -36.0
+offset_right = 45.5
+offset_bottom = -4.0
+grow_horizontal = 2
+grow_vertical = 0
+theme = SubResource("Theme_05oun")
+text = "exit"
+
+[node name="Button5" type="Button" parent="Control"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -52.5
+offset_top = -47.0
+offset_right = 39.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="Label3" type="Label" parent="Control"]
+layout_mode = 0
+offset_left = 139.0
+offset_top = 436.0
+offset_right = 452.0
+offset_bottom = 459.0
+text = "state reset"
