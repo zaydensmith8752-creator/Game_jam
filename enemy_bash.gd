@@ -1,22 +1,28 @@
 extends CharacterBody2D
 
+var bash_pos
+var new_pos = Vector2.ZERO
+var bash_speed = 9000
+var bash
+
 func _ready() -> void:
-	pass
-	#find the position of player
-	#start bash_timer
+	$bash_time.start()
 
 func _physics_process(delta: float) -> void:
 	pass
-	#move from current to players old fast
-	
+	if bash == true:
+		$Timer.start()
+		bash = false
+		$bash_time.start()
 
 func _on_bash_time_timeout() -> void:
 	pass
-	#move from current to players old fast
-	#find the position of player
-	#start recover_timer
-	
+	bash_pos = $"../CharacterBody2D".global_position
+	bash = true
+	print(new_pos)
+	print(bash_pos)
+	print(bash)
 
-func _on_recovery_time_timeout() -> void:
-	pass
-		#start bash_timer
+
+func _on_timer_timeout() -> void:
+	position = bash_pos
