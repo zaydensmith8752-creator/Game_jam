@@ -1,4 +1,4 @@
-[gd_scene load_steps=56 format=3 uid="uid://dhap0tu7qkxuc"]
+[gd_scene load_steps=87 format=3 uid="uid://dhap0tu7qkxuc"]
 
 [ext_resource type="Texture2D" uid="uid://c5x5hdh7utrgy" path="res://tiles/1 Tiles/FieldsTileset.png" id="1_bssq0"]
 [ext_resource type="Texture2D" uid="uid://bco1rl1ksfvom" path="res://tiles/1.1 Tiles/Tileset2.png" id="2_jk4ss"]
@@ -33,25 +33,36 @@
 [ext_resource type="Texture2D" uid="uid://c11gpjxs0rmdo" path="res://craftpix-net-385863-free-top-down-trees-pixel-art/PNG/Assets_separately/Trees/Broken_tree3.png" id="27_vbtoe"]
 [ext_resource type="Texture2D" uid="uid://d10w2o44cp3xb" path="res://craftpix-net-141354-free-top-down-bushes-pixel-art/PNG/Assets_shadow/Fern2_2.png" id="27_y0s0d"]
 [ext_resource type="Texture2D" uid="uid://bwvtxmxwmc7yo" path="res://craftpix-net-974061-free-rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_5.png" id="28_e1wd7"]
-[ext_resource type="Texture2D" uid="uid://6lg3g0gf85iv" path="res://craftpix-net-141354-free-top-down-bushes-pixel-art/PNG/Assets/Bush_simple1_1.png" id="28_xbf5p"]
-[ext_resource type="Texture2D" uid="uid://nbsvflo3cndf" path="res://craftpix-net-141354-free-top-down-bushes-pixel-art/PNG/Assets/Bush_simple1_2.png" id="29_na5ms"]
 [ext_resource type="Texture2D" uid="uid://cvwgd84vuvf7n" path="res://craftpix-net-974061-free-rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_1.png" id="29_xkcq7"]
 [ext_resource type="Texture2D" uid="uid://ehpcf7pm5w84" path="res://craftpix-net-974061-free-rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock1_grass_shadow3.png" id="30_8uufd"]
-[ext_resource type="Texture2D" uid="uid://5guvwoxicf0i" path="res://craftpix-net-141354-free-top-down-bushes-pixel-art/PNG/Assets/Bush_simple2_1.png" id="30_28eae"]
 [ext_resource type="Texture2D" uid="uid://4upbtaar4vqi" path="res://craftpix-net-141354-free-top-down-bushes-pixel-art/PNG/Assets_shadow/Burned_tree1.png" id="30_iwan2"]
 [ext_resource type="Texture2D" uid="uid://c0ok3ln0dsb4x" path="res://craftpix-net-974061-free-rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock2_grass_shadow_dark1.png" id="31_1xagg"]
-[ext_resource type="Texture2D" uid="uid://dnnj4dsqswwaj" path="res://craftpix-net-141354-free-top-down-bushes-pixel-art/PNG/Assets/Bush_simple2_2.png" id="31_kwd4m"]
-[ext_resource type="Texture2D" uid="uid://dmcn7hqkmtopl" path="res://craftpix-net-141354-free-top-down-bushes-pixel-art/PNG/Assets/Bush_simple1_3.png" id="32_1f61l"]
-[ext_resource type="Texture2D" uid="uid://cn77hxgkr8vgl" path="res://craftpix-net-141354-free-top-down-bushes-pixel-art/PNG/Assets/Fern1_3.png" id="33_xi453"]
-[ext_resource type="Texture2D" uid="uid://d0td6hlxrc33m" path="res://craftpix-net-141354-free-top-down-bushes-pixel-art/PNG/Assets/Fern2_2.png" id="34_7b682"]
 [ext_resource type="Texture2D" uid="uid://ie8pvceh5wui" path="res://craftpix-net-141354-free-top-down-bushes-pixel-art/PNG/Assets/Broken_tree1.png" id="34_hac6k"]
-[ext_resource type="Texture2D" uid="uid://o8g7gcgtxxid" path="res://craftpix-net-141354-free-top-down-bushes-pixel-art/PNG/Assets/Fern2_3.png" id="35_bn158"]
-[ext_resource type="Texture2D" uid="uid://b6k7xuqbediuh" path="res://craftpix-net-141354-free-top-down-bushes-pixel-art/PNG/Assets/Fern1_1.png" id="36_iixrc"]
 [ext_resource type="Texture2D" uid="uid://fxf18gsbqmrv" path="res://craftpix-net-974061-free-rocks-and-stones-top-down-pixel-art/PNG/Objects_separately/Rock2_grass_shadow3.png" id="39_tu3qe"]
 [ext_resource type="Texture2D" uid="uid://3mtluwwnmua3" path="res://craftpix-net-385863-free-top-down-trees-pixel-art/PNG/Assets_separately/Trees/Tree2.png" id="40_epbps"]
 [ext_resource type="Texture2D" uid="uid://bng4lclqmc02r" path="res://craftpix-net-934618-free-top-down-ruins-pixel-art/PNG/Assets/Brown-gray_ruins1.png" id="41_xbf5p"]
 [ext_resource type="Texture2D" uid="uid://cf15sl3xljuhx" path="res://craftpix-net-934618-free-top-down-ruins-pixel-art/PNG/Assets/Blue-gray_ruins3.png" id="42_na5ms"]
 [ext_resource type="Texture2D" uid="uid://bi6bc4k1fae7f" path="res://craftpix-net-934618-free-top-down-ruins-pixel-art/PNG/Assets/Brown-gray_ruins4.png" id="43_28eae"]
+[ext_resource type="Texture2D" uid="uid://djjru8d7d8ox6" path="res://craftpix-net-934618-free-top-down-ruins-pixel-art/PNG/Assets/White_ruins1.png" id="44_epbps"]
+[ext_resource type="Texture2D" uid="uid://b61vg3kh27f5v" path="res://craftpix-net-934618-free-top-down-ruins-pixel-art/PNG/Assets/White_ruins5.png" id="45_xbf5p"]
+[ext_resource type="Texture2D" uid="uid://bc7lyiomqsp4x" path="res://craftpix-net-934618-free-top-down-ruins-pixel-art/PNG/Assets/White_ruins4.png" id="46_na5ms"]
+[ext_resource type="Texture2D" uid="uid://bukvf0qbyygp" path="res://craftpix-net-934618-free-top-down-ruins-pixel-art/PNG/Assets/White_ruins2.png" id="47_28eae"]
+[ext_resource type="Texture2D" uid="uid://b2asxowauwo1i" path="res://craftpix-net-141354-free-top-down-bushes-pixel-art/PNG/Assets_texture_shadow/Bush_simple1_1.png" id="48_kwd4m"]
+[ext_resource type="Texture2D" uid="uid://dc4p2cvwnxkgb" path="res://2 Objects/7 House/4.png" id="49_1f61l"]
+[ext_resource type="Texture2D" uid="uid://dsyyokyr1phqg" path="res://2 Objects/7 House/3.png" id="50_xi453"]
+[ext_resource type="Texture2D" uid="uid://d1gha1joexh2u" path="res://2 Objects/PlaceForTower1.png" id="51_7b682"]
+[ext_resource type="Texture2D" uid="uid://bqquku8fgn8t5" path="res://2 Objects/3 Decor/13.png" id="52_pu337"]
+[ext_resource type="Texture2D" uid="uid://dwl1f0lvlkgtm" path="res://1 Shadow/1.png" id="53_8x52i"]
+[ext_resource type="Texture2D" uid="uid://hqvulauykefe" path="res://1 Shadow/4.png" id="54_gqiyg"]
+[ext_resource type="Texture2D" uid="uid://dimyi1ibid0nd" path="res://1 Shadow/6.png" id="55_p6qp2"]
+[ext_resource type="Texture2D" uid="uid://b4fewowo3kqum" path="res://1 Shadow/5.png" id="56_s2qvx"]
+[ext_resource type="Texture2D" uid="uid://u5m0blmxxo36" path="res://2 Objects/3 Decor/9.png" id="57_ir2v7"]
+[ext_resource type="Texture2D" uid="uid://ul0ach7e5ncs" path="res://2 Objects/3 Decor/11.png" id="58_nw1h7"]
+[ext_resource type="Texture2D" uid="uid://csa8dqfftxbfk" path="res://2 Objects/3 Decor/10.png" id="59_x00dc"]
+[ext_resource type="Texture2D" uid="uid://tjkpb8ggqrbr" path="res://2 Objects/6 Tent/4.png" id="60_lu2wf"]
+[ext_resource type="Texture2D" uid="uid://co2fd0cviky7s" path="res://2 Objects/PlaceForTower2.png" id="61_0inej"]
+[ext_resource type="Texture2D" uid="uid://csnkq6sp2tyex" path="res://2 Objects/3 Decor/8.png" id="62_to61r"]
+[ext_resource type="Texture2D" uid="uid://u1v0jxss021j" path="res://2 Objects/3 Decor/5.png" id="63_2ai8a"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vbtoe"]
 texture = ExtResource("1_bssq0")
@@ -857,6 +868,66 @@ physics_layer_0/collision_mask = 3
 sources/0 = SubResource("TileSetAtlasSource_vbtoe")
 sources/1 = SubResource("TileSetAtlasSource_e1wd7")
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pu337"]
+size = Vector2(42, 50)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8x52i"]
+size = Vector2(24, 18)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gqiyg"]
+size = Vector2(48, 48)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_p6qp2"]
+size = Vector2(26, 26)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_s2qvx"]
+size = Vector2(20, 26)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ir2v7"]
+size = Vector2(34, 32)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_nw1h7"]
+size = Vector2(20, 26)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_x00dc"]
+size = Vector2(26, 24)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lu2wf"]
+size = Vector2(106, 82)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0inej"]
+size = Vector2(42, 40)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_to61r"]
+size = Vector2(82, 50)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2ai8a"]
+size = Vector2(180, 101)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_s38r4"]
+size = Vector2(65, 65)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_snia4"]
+size = Vector2(128, 96)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_13qfn"]
+size = Vector2(152, 88)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_w3fod"]
+size = Vector2(34, 48)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_odyyc"]
+size = Vector2(88, 58)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_eq23i"]
+size = Vector2(96, 120)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tllk6"]
+size = Vector2(33, 53)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_m3ixl"]
+size = Vector2(80, 64)
+
 [node name="map" type="Node2D"]
 
 [node name="TileMap" type="TileMap" parent="."]
@@ -1205,74 +1276,6 @@ z_index = 1
 position = Vector2(376, 384)
 texture = ExtResource("21_meq34")
 
-[node name="BushSimple12" type="Sprite2D" parent="fern"]
-position = Vector2(312, 48)
-texture = ExtResource("28_xbf5p")
-
-[node name="BushSimple13" type="Sprite2D" parent="fern"]
-position = Vector2(360, 56)
-texture = ExtResource("29_na5ms")
-
-[node name="BushSimple14" type="Sprite2D" parent="fern"]
-position = Vector2(376, 24)
-texture = ExtResource("28_xbf5p")
-
-[node name="BushSimple21" type="Sprite2D" parent="fern"]
-position = Vector2(328, 48)
-texture = ExtResource("30_28eae")
-
-[node name="BushSimple22" type="Sprite2D" parent="fern"]
-position = Vector2(360, 24)
-texture = ExtResource("31_kwd4m")
-
-[node name="BushSimple23" type="Sprite2D" parent="fern"]
-position = Vector2(352, 40)
-texture = ExtResource("30_28eae")
-
-[node name="BushSimple15" type="Sprite2D" parent="fern"]
-position = Vector2(328, 64)
-texture = ExtResource("32_1f61l")
-
-[node name="BushSimple16" type="Sprite2D" parent="fern"]
-position = Vector2(376, 40)
-texture = ExtResource("28_xbf5p")
-
-[node name="BushSimple17" type="Sprite2D" parent="fern"]
-position = Vector2(400, 40)
-texture = ExtResource("28_xbf5p")
-
-[node name="Fern17" type="Sprite2D" parent="fern"]
-position = Vector2(312, 64)
-texture = ExtResource("33_xi453")
-
-[node name="BushSimple18" type="Sprite2D" parent="fern"]
-position = Vector2(344, 24)
-texture = ExtResource("28_xbf5p")
-
-[node name="Fern24" type="Sprite2D" parent="fern"]
-position = Vector2(344, 56)
-texture = ExtResource("34_7b682")
-
-[node name="Fern25" type="Sprite2D" parent="fern"]
-position = Vector2(384, 48)
-texture = ExtResource("35_bn158")
-
-[node name="Fern18" type="Sprite2D" parent="fern"]
-position = Vector2(400, 24)
-texture = ExtResource("36_iixrc")
-
-[node name="Fern19" type="Sprite2D" parent="fern"]
-position = Vector2(320, 24)
-texture = ExtResource("36_iixrc")
-
-[node name="Fern20" type="Sprite2D" parent="fern"]
-position = Vector2(368, 56)
-texture = ExtResource("36_iixrc")
-
-[node name="BushSimple19" type="Sprite2D" parent="fern"]
-position = Vector2(312, 72)
-texture = ExtResource("28_xbf5p")
-
 [node name="burnt trees" type="Node" parent="."]
 
 [node name="BurnedTree1" type="Sprite2D" parent="burnt trees"]
@@ -1583,3 +1586,476 @@ texture = ExtResource("42_na5ms")
 [node name="BrownGrayRuins4" type="Sprite2D" parent="ruins"]
 position = Vector2(392, 376)
 texture = ExtResource("43_28eae")
+
+[node name="WhiteRuins1" type="Sprite2D" parent="ruins"]
+position = Vector2(360, 48)
+texture = ExtResource("44_epbps")
+
+[node name="WhiteRuins5" type="Sprite2D" parent="ruins"]
+position = Vector2(312, 168)
+texture = ExtResource("45_xbf5p")
+
+[node name="WhiteRuins4" type="Sprite2D" parent="ruins"]
+position = Vector2(400, 160)
+texture = ExtResource("46_na5ms")
+
+[node name="WhiteRuins2" type="Sprite2D" parent="ruins"]
+position = Vector2(360, 160)
+texture = ExtResource("47_28eae")
+
+[node name="BushSimple11" type="Sprite2D" parent="."]
+position = Vector2(752, 88)
+texture = ExtResource("48_kwd4m")
+
+[node name="BushSimple12" type="Sprite2D" parent="."]
+position = Vector2(960, 64)
+texture = ExtResource("48_kwd4m")
+
+[node name="BushSimple13" type="Sprite2D" parent="."]
+position = Vector2(456, 128)
+texture = ExtResource("48_kwd4m")
+
+[node name="4" type="Sprite2D" parent="."]
+position = Vector2(536, 256)
+texture = ExtResource("49_1f61l")
+flip_h = true
+
+[node name="3" type="Sprite2D" parent="."]
+position = Vector2(552, 456)
+texture = ExtResource("50_xi453")
+
+[node name="PlaceForTower1" type="Sprite2D" parent="."]
+position = Vector2(1020.5, 296.75)
+scale = Vector2(1.4032258, 1.2868853)
+texture = ExtResource("51_7b682")
+
+[node name="1" type="Sprite2D" parent="."]
+position = Vector2(1056, 312)
+texture = ExtResource("14_meq34")
+
+[node name="2" type="Sprite2D" parent="."]
+position = Vector2(976, 280)
+texture = ExtResource("15_yy28u")
+
+[node name="5" type="Sprite2D" parent="."]
+position = Vector2(976, 312)
+texture = ExtResource("16_a454a")
+
+[node name="6" type="Sprite2D" parent="."]
+position = Vector2(1056, 264)
+texture = ExtResource("18_2kko2")
+
+[node name="7" type="Sprite2D" parent="."]
+position = Vector2(1072, 280)
+texture = ExtResource("17_te172")
+
+[node name="8" type="Sprite2D" parent="."]
+position = Vector2(1000, 256)
+texture = ExtResource("14_meq34")
+
+[node name="9" type="Sprite2D" parent="."]
+position = Vector2(1032, 328)
+texture = ExtResource("14_meq34")
+
+[node name="10" type="Sprite2D" parent="."]
+position = Vector2(1080, 312)
+texture = ExtResource("14_meq34")
+
+[node name="11" type="Sprite2D" parent="."]
+position = Vector2(952, 288)
+texture = ExtResource("14_meq34")
+
+[node name="13" type="Sprite2D" parent="."]
+z_index = 1
+position = Vector2(800, 272)
+texture = ExtResource("52_pu337")
+
+[node name="12" type="Sprite2D" parent="."]
+position = Vector2(776, 280)
+texture = ExtResource("53_8x52i")
+
+[node name="14" type="Sprite2D" parent="."]
+position = Vector2(824, 280)
+texture = ExtResource("54_gqiyg")
+
+[node name="15" type="Sprite2D" parent="."]
+position = Vector2(800, 280)
+scale = Vector2(1.5105263, 1.532258)
+texture = ExtResource("55_p6qp2")
+
+[node name="16" type="Sprite2D" parent="."]
+position = Vector2(87.75, 320.5)
+scale = Vector2(0.5, 0.7580645)
+texture = ExtResource("55_p6qp2")
+
+[node name="17" type="Sprite2D" parent="."]
+position = Vector2(56, 384)
+texture = ExtResource("54_gqiyg")
+
+[node name="18" type="Sprite2D" parent="."]
+position = Vector2(32, 416)
+texture = ExtResource("54_gqiyg")
+
+[node name="19" type="Sprite2D" parent="."]
+position = Vector2(56, 504)
+texture = ExtResource("55_p6qp2")
+
+[node name="20" type="Sprite2D" parent="."]
+position = Vector2(280, 320)
+texture = ExtResource("55_p6qp2")
+
+[node name="21" type="Sprite2D" parent="."]
+position = Vector2(240, 328)
+texture = ExtResource("55_p6qp2")
+
+[node name="22" type="Sprite2D" parent="."]
+position = Vector2(240, 360)
+texture = ExtResource("55_p6qp2")
+
+[node name="23" type="Sprite2D" parent="."]
+position = Vector2(296, 360)
+texture = ExtResource("55_p6qp2")
+
+[node name="24" type="Sprite2D" parent="."]
+position = Vector2(280, 368)
+texture = ExtResource("55_p6qp2")
+
+[node name="25" type="Sprite2D" parent="."]
+position = Vector2(392, 376)
+texture = ExtResource("56_s2qvx")
+
+[node name="26" type="Sprite2D" parent="."]
+position = Vector2(376, 376)
+texture = ExtResource("55_p6qp2")
+
+[node name="27" type="Sprite2D" parent="."]
+position = Vector2(216, 64)
+texture = ExtResource("55_p6qp2")
+
+[node name="28" type="Sprite2D" parent="."]
+position = Vector2(208, 80)
+texture = ExtResource("55_p6qp2")
+
+[node name="29" type="Sprite2D" parent="."]
+position = Vector2(40, 120)
+texture = ExtResource("56_s2qvx")
+
+[node name="30" type="Sprite2D" parent="."]
+position = Vector2(55.75, 40)
+scale = Vector2(0.8368421, 1)
+texture = ExtResource("55_p6qp2")
+
+[node name="31" type="Sprite2D" parent="."]
+position = Vector2(56, 56)
+texture = ExtResource("55_p6qp2")
+
+[node name="32" type="Sprite2D" parent="."]
+position = Vector2(80, 216)
+texture = ExtResource("56_s2qvx")
+
+[node name="33" type="Sprite2D" parent="."]
+position = Vector2(56, 184)
+texture = ExtResource("54_gqiyg")
+
+[node name="34" type="Sprite2D" parent="."]
+position = Vector2(240, 200)
+texture = ExtResource("56_s2qvx")
+
+[node name="35" type="Sprite2D" parent="."]
+position = Vector2(768, 272)
+texture = ExtResource("14_meq34")
+flip_h = true
+
+[node name="36" type="Sprite2D" parent="."]
+position = Vector2(768, 288)
+texture = ExtResource("14_meq34")
+flip_h = true
+
+[node name="37" type="Sprite2D" parent="."]
+position = Vector2(776, 296)
+texture = ExtResource("16_a454a")
+
+[node name="47" type="Sprite2D" parent="."]
+position = Vector2(832, 296)
+texture = ExtResource("16_a454a")
+flip_h = true
+
+[node name="38" type="Sprite2D" parent="."]
+position = Vector2(784, 304)
+texture = ExtResource("18_2kko2")
+
+[node name="39" type="Sprite2D" parent="."]
+position = Vector2(800, 304)
+texture = ExtResource("17_te172")
+
+[node name="40" type="Sprite2D" parent="."]
+position = Vector2(816, 304)
+texture = ExtResource("18_2kko2")
+flip_h = true
+
+[node name="41" type="Sprite2D" parent="."]
+position = Vector2(776, 264)
+texture = ExtResource("14_meq34")
+flip_h = true
+
+[node name="42" type="Sprite2D" parent="."]
+position = Vector2(840, 288)
+texture = ExtResource("14_meq34")
+
+[node name="43" type="Sprite2D" parent="."]
+position = Vector2(824, 264)
+texture = ExtResource("14_meq34")
+
+[node name="44" type="Sprite2D" parent="."]
+position = Vector2(840, 272)
+texture = ExtResource("15_yy28u")
+
+[node name="45" type="Sprite2D" parent="."]
+position = Vector2(840, 280)
+texture = ExtResource("19_kpdfo")
+
+[node name="46" type="Sprite2D" parent="."]
+position = Vector2(768, 280)
+texture = ExtResource("19_kpdfo")
+
+[node name="48" type="Sprite2D" parent="."]
+position = Vector2(688, 280)
+texture = ExtResource("57_ir2v7")
+
+[node name="49" type="Sprite2D" parent="."]
+position = Vector2(920, 288)
+texture = ExtResource("58_nw1h7")
+
+[node name="50" type="Sprite2D" parent="."]
+position = Vector2(448, 536)
+texture = ExtResource("59_x00dc")
+
+[node name="51" type="Sprite2D" parent="."]
+z_index = 1
+position = Vector2(728, 485.75)
+scale = Vector2(1.25, 1.0633802)
+texture = ExtResource("60_lu2wf")
+
+[node name="Tree2" type="Sprite2D" parent="."]
+z_index = 3
+position = Vector2(1016, 472.00003)
+scale = Vector2(2.625, 2.25)
+texture = ExtResource("40_epbps")
+
+[node name="PlaceForTower2" type="Sprite2D" parent="."]
+position = Vector2(872, 512)
+texture = ExtResource("61_0inej")
+
+[node name="52" type="Sprite2D" parent="."]
+position = Vector2(728, 496)
+texture = ExtResource("62_to61r")
+
+[node name="53" type="Sprite2D" parent="."]
+position = Vector2(752, 464)
+texture = ExtResource("10_n2jt6")
+
+[node name="54" type="Sprite2D" parent="."]
+position = Vector2(784, 496)
+texture = ExtResource("11_h75vw")
+
+[node name="55" type="Sprite2D" parent="."]
+position = Vector2(696, 504)
+texture = ExtResource("13_qw8h8")
+
+[node name="56" type="Sprite2D" parent="."]
+position = Vector2(784, 520)
+texture = ExtResource("12_7vxqa")
+
+[node name="57" type="Sprite2D" parent="."]
+position = Vector2(720, 544)
+texture = ExtResource("12_7vxqa")
+
+[node name="58" type="Sprite2D" parent="."]
+position = Vector2(792, 472)
+texture = ExtResource("63_2ai8a")
+
+[node name="59" type="Sprite2D" parent="."]
+position = Vector2(800, 480)
+texture = ExtResource("63_2ai8a")
+
+[node name="60" type="Sprite2D" parent="."]
+position = Vector2(1064, 520)
+texture = ExtResource("57_ir2v7")
+
+[node name="61" type="Sprite2D" parent="."]
+position = Vector2(968, 528)
+texture = ExtResource("59_x00dc")
+
+[node name="62" type="Sprite2D" parent="."]
+position = Vector2(656, 496)
+texture = ExtResource("58_nw1h7")
+
+[node name="63" type="Sprite2D" parent="."]
+position = Vector2(456, 128)
+texture = ExtResource("58_nw1h7")
+
+[node name="64" type="Sprite2D" parent="."]
+position = Vector2(840, 8)
+texture = ExtResource("57_ir2v7")
+
+[node name="65" type="Sprite2D" parent="."]
+position = Vector2(768, 8)
+texture = ExtResource("57_ir2v7")
+flip_h = true
+
+[node name="66" type="Sprite2D" parent="."]
+position = Vector2(1107.375, 128)
+scale = Vector2(1.2023795, 1)
+texture = ExtResource("58_nw1h7")
+
+[node name="Node" type="Node" parent="."]
+
+[node name="Area2D" type="Area2D" parent="Node"]
+position = Vector2(32, 32)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Node/Area2D"]
+position = Vector2(11, 7)
+shape = SubResource("RectangleShape2D_pu337")
+
+[node name="Area2D2" type="Area2D" parent="Node"]
+position = Vector2(32, 120)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Node/Area2D2"]
+position = Vector2(8, 0)
+shape = SubResource("RectangleShape2D_8x52i")
+
+[node name="Area2D3" type="Area2D" parent="Node"]
+position = Vector2(208, 56)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Node/Area2D3"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_gqiyg")
+
+[node name="Area2D4" type="Area2D" parent="Node"]
+position = Vector2(88, 216)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Node/Area2D4"]
+position = Vector2(-11, -3)
+shape = SubResource("RectangleShape2D_p6qp2")
+
+[node name="Area2D5" type="Area2D" parent="Node"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Node/Area2D5"]
+position = Vector2(56, 181)
+shape = SubResource("RectangleShape2D_s2qvx")
+
+[node name="Area2D6" type="Area2D" parent="Node"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Node/Area2D6"]
+position = Vector2(241, 200)
+shape = SubResource("RectangleShape2D_ir2v7")
+
+[node name="Area2D7" type="Area2D" parent="Node"]
+position = Vector2(80, 312)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Node/Area2D7"]
+position = Vector2(8, 3)
+shape = SubResource("RectangleShape2D_nw1h7")
+
+[node name="Area2D8" type="Area2D" parent="Node"]
+position = Vector2(56, 376)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Node/Area2D8"]
+shape = SubResource("RectangleShape2D_x00dc")
+
+[node name="Area2D9" type="Area2D" parent="Node"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Node/Area2D9"]
+position = Vector2(267, 343)
+shape = SubResource("RectangleShape2D_lu2wf")
+
+[node name="Area2D10" type="Area2D" parent="Node"]
+position = Vector2(256, 272)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Node/Area2D10"]
+position = Vector2(139, 100)
+shape = SubResource("RectangleShape2D_0inej")
+
+[node name="Area2D11" type="Area2D" parent="Node"]
+position = Vector2(376, 184)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Node/Area2D11"]
+position = Vector2(-1, -31)
+shape = SubResource("RectangleShape2D_to61r")
+
+[node name="Area2D12" type="Area2D" parent="Node"]
+position = Vector2(480, 88)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Node/Area2D12"]
+position = Vector2(70, 5.5)
+shape = SubResource("RectangleShape2D_2ai8a")
+
+[node name="Area2D13" type="Area2D" parent="Node"]
+position = Vector2(480, 88)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Node/Area2D13"]
+position = Vector2(80, -40)
+shape = SubResource("RectangleShape2D_2ai8a")
+
+[node name="Area2D14" type="Area2D" parent="Node"]
+position = Vector2(704, 88)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Node/Area2D14"]
+position = Vector2(7.5, 7.5)
+shape = SubResource("RectangleShape2D_s38r4")
+
+[node name="Area2D15" type="Area2D" parent="Node"]
+position = Vector2(704, 88)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Node/Area2D15"]
+position = Vector2(168, 8)
+shape = SubResource("RectangleShape2D_s38r4")
+
+[node name="Area2D16" type="Area2D" parent="Node"]
+position = Vector2(1008, 80)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Node/Area2D16"]
+position = Vector2(24, 8)
+shape = SubResource("RectangleShape2D_snia4")
+
+[node name="Area2D17" type="Area2D" parent="Node"]
+position = Vector2(520, 272)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Node/Area2D17"]
+position = Vector2(20, 12)
+shape = SubResource("RectangleShape2D_13qfn")
+
+[node name="Area2D18" type="Area2D" parent="Node"]
+position = Vector2(792, 280)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Node/Area2D18"]
+position = Vector2(7, -8)
+shape = SubResource("RectangleShape2D_w3fod")
+
+[node name="Area2D19" type="Area2D" parent="Node"]
+position = Vector2(1024, 312)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Node/Area2D19"]
+position = Vector2(-4, -19)
+shape = SubResource("RectangleShape2D_odyyc")
+
+[node name="Area2D20" type="Area2D" parent="Node"]
+position = Vector2(536, 448)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Node/Area2D20"]
+position = Vector2(16, 24)
+shape = SubResource("RectangleShape2D_eq23i")
+
+[node name="Area2D21" type="Area2D" parent="Node"]
+position = Vector2(1016, 504)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Node/Area2D21"]
+position = Vector2(-0.5, 10.5)
+shape = SubResource("RectangleShape2D_tllk6")
+
+[node name="Area2D22" type="Area2D" parent="Node"]
+position = Vector2(736, 496)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Node/Area2D22"]
+position = Vector2(-8, -8)
+shape = SubResource("RectangleShape2D_m3ixl")
