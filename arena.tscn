@@ -1,4 +1,4 @@
-[gd_scene load_steps=25 format=3 uid="uid://d2mvg2m8veqb8"]
+[gd_scene load_steps=26 format=3 uid="uid://d2mvg2m8veqb8"]
 
 [ext_resource type="Texture2D" uid="uid://c5x5hdh7utrgy" path="res://tiles/1 Tiles/FieldsTileset.png" id="1_1s3fb"]
 [ext_resource type="Texture2D" uid="uid://bco1rl1ksfvom" path="res://tiles/1.1 Tiles/Tileset2.png" id="2_1pekq"]
@@ -16,6 +16,7 @@
 [ext_resource type="Texture2D" uid="uid://b8sqcubsggt64" path="res://craftpix-net-385863-free-top-down-trees-pixel-art/PNG/Assets_separately/Trees_shadow/Broken_tree5.png" id="14_jlld2"]
 [ext_resource type="Texture2D" uid="uid://dj2jjgvtxpxlv" path="res://craftpix-net-385863-free-top-down-trees-pixel-art/PNG/Assets_separately/Trees_shadow/Broken_tree6.png" id="15_u73fl"]
 [ext_resource type="Texture2D" uid="uid://2set7vtgyq5y" path="res://craftpix-net-385863-free-top-down-trees-pixel-art/PNG/Assets_separately/Trees_shadow/Broken_tree7.png" id="16_8t24w"]
+[ext_resource type="Texture2D" uid="uid://qkhg1d155gaw" path="res://craftpix-net-385863-free-top-down-trees-pixel-art/PNG/Assets_separately/Trees/Broken_tree1.png" id="17_1pekq"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6e4pq"]
 texture = ExtResource("1_1s3fb")
@@ -708,3 +709,7 @@ shape = SubResource("RectangleShape2D_o6fdx")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Node/Area2D11"]
 position = Vector2(432, 248)
 shape = SubResource("RectangleShape2D_o6fdx")
+
+[node name="BrokenTree1" type="Sprite2D" parent="."]
+position = Vector2(256, 352)
+texture = ExtResource("17_1pekq")
