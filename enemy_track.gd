@@ -2,7 +2,7 @@ extends CharacterBody2D
 
 var speed = 10000
 @export var track: Node = null
-
+var hi
 func _ready() -> void:
 	pass
 	#find the position of player
