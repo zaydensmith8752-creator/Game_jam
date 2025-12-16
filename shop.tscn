@@ -1,0 +1,140 @@
+[gd_scene load_steps=5 format=3 uid="uid://4kqdjhga7js3"]
+
+[ext_resource type="FontFile" uid="uid://c1kqtfogophcu" path="res://archaic_asian_inks/Archaic Asian Inks.ttf" id="1_viryw"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_e7rdd"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(1, 1, 1, 0.75)
+draw_center = false
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 5
+expand_margin_left = 2.0
+expand_margin_top = 2.0
+expand_margin_right = 2.0
+expand_margin_bottom = 2.0
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_blqjs"]
+
+[sub_resource type="Theme" id="Theme_fgaav"]
+Label/colors/font_color = Color(1, 1, 1, 1)
+Label/colors/font_outline_color = Color(0, 0, 0, 1)
+Label/colors/font_shadow_color = Color(0, 0, 0, 0)
+Label/constants/line_spacing = 3
+Label/constants/outline_size = 0
+Label/constants/shadow_offset_x = 1
+Label/constants/shadow_offset_y = 1
+Label/constants/shadow_outline_size = 1
+Label/font_sizes/font_size = 16
+Label/fonts/font = ExtResource("1_viryw")
+Label/styles/focus = SubResource("StyleBoxFlat_e7rdd")
+Label/styles/normal = SubResource("StyleBoxEmpty_blqjs")
+
+[node name="shop" type="Node2D"]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1152.0
+offset_bottom = 646.0
+
+[node name="ColorRect" type="ColorRect" parent="Control"]
+layout_mode = 0
+offset_right = 1151.0
+offset_bottom = 646.0
+color = Color(1, 0.47843137, 0.27450982, 1)
+
+[node name="strength" type="Label" parent="Control"]
+layout_mode = 0
+offset_left = 28.0
+offset_top = 40.0
+offset_right = 552.0
+offset_bottom = 107.0
+theme = SubResource("Theme_fgaav")
+text = "strength +25%/ speed -25%
+             50 coins"
+
+[node name="health" type="Label" parent="Control"]
+layout_mode = 0
+offset_left = 619.0
+offset_top = 38.0
+offset_right = 1069.0
+offset_bottom = 105.0
+theme = SubResource("Theme_fgaav")
+text = "health +25%/ size -25%
+             50 coins"
+
+[node name="purchase" type="Label" parent="Control"]
+layout_mode = 0
+offset_left = 32.0
+offset_top = 125.0
+offset_right = 539.0
+offset_bottom = 168.0
+theme = SubResource("Theme_fgaav")
+text = "to purchase click here"
+
+[node name="purchase2" type="Label" parent="Control"]
+layout_mode = 0
+offset_left = 601.0
+offset_top = 126.0
+offset_right = 1108.0
+offset_bottom = 160.0
+theme = SubResource("Theme_fgaav")
+text = "to purchase click here"
+
+[node name="purchase4" type="Label" parent="Control"]
+layout_mode = 0
+offset_left = 593.0
+offset_top = 303.0
+offset_right = 1100.0
+offset_bottom = 337.0
+theme = SubResource("Theme_fgaav")
+text = "to purchase click here"
+
+[node name="purchase3" type="Label" parent="Control"]
+layout_mode = 0
+offset_left = 38.0
+offset_top = 304.0
+offset_right = 545.0
+offset_bottom = 336.0
+theme = SubResource("Theme_fgaav")
+text = "to purchase click here"
+
+[node name="speed" type="Label" parent="Control"]
+layout_mode = 0
+offset_left = 46.0
+offset_top = 206.0
+offset_right = 532.0
+offset_bottom = 273.0
+theme = SubResource("Theme_fgaav")
+text = "speed +25/ strength -25
+           50 coins"
+
+[node name="reset" type="Label" parent="Control"]
+layout_mode = 0
+offset_left = 140.0
+offset_top = 374.0
+offset_right = 431.0
+offset_bottom = 441.0
+theme = SubResource("Theme_fgaav")
+text = "reset states 
+    25 coins"
+
+[node name="speed2" type="Label" parent="Control"]
+layout_mode = 0
+offset_left = 639.0
+offset_top = 202.0
+offset_right = 1065.0
+offset_bottom = 269.0
+theme = SubResource("Theme_fgaav")
+text = "size +25/ health -25
+           50 coins"
