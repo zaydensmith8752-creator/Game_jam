@@ -1,0 +1,35 @@
+[gd_scene load_steps=3 format=3 uid="uid://8se4m1senuqv"]
+
+[ext_resource type="FontFile" uid="uid://c1kqtfogophcu" path="res://archaic_asian_inks/Archaic Asian Inks.ttf" id="1_qemge"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_lf77f"]
+font = ExtResource("1_qemge")
+font_size = 32
+font_color = Color(0.49747342, 0, 0.084609546, 1)
+
+[node name="Node2D" type="Node2D"]
+position = Vector2(0, 208)
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1152.0
+offset_bottom = 176.0
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect" type="ColorRect" parent="Control"]
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 176.0
+color = Color(0, 0, 0, 0.24313726)
+metadata/_edit_use_anchors_ = true
+
+[node name="Label" type="Label" parent="Control"]
+layout_mode = 0
+offset_left = 408.0
+offset_top = 56.0
+offset_right = 762.0
+offset_bottom = 119.0
+text = "you died "
+label_settings = SubResource("LabelSettings_lf77f")
+metadata/_edit_use_anchors_ = true

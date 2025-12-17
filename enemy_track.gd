@@ -2,7 +2,7 @@ extends CharacterBody2D
 var damage = 0
 var speed = 10000
 @export var track: Node = null
-
+var hi
 func _ready() -> void:
 	pass
 	$NavigationAgent2D.target_position = track.global_position
