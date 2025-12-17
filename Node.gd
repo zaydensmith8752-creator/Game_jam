@@ -10,4 +10,5 @@ var new_speed
 var new_size
 var new_atk_dmg
 
-#Global.new_health = Global.health * 1.5
+#Global.new_size = Global.size * 1.5
+#Global.new_speed = Global_size * .5

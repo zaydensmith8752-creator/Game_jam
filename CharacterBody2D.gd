@@ -5,7 +5,7 @@ var SPEED = 500.0
 var dash = false
 var move1
 var move2
-
+var can_atk = true
 func _physics_process(delta):
 	var direction_Y = Input.get_axis("up", "down")
 	var direction_X = Input.get_axis("left", "right")
@@ -31,14 +31,21 @@ func _physics_process(delta):
 	else:
 		SPEED = 500.0
 
-	if Input.is_action_just_pressed("roll"):
-		dash = true
-		SPEED = SPEED * 4
-		$Dash_Timer.start()
-		print(dash)
+	if Input.is_action_just_pressed("atk") && can_atk == true:
+		$Area2D2/CollisionShape2D.disabled = false
+		can_atk = false
+		$Timer.start()
 	move_and_slide()
 
 
-func _on_dash_timer_timeout():
-	dash = false
-	SPEED = 250
+
+
+
+func _on_timer_timeout():
+	$Area2D2/CollisionShape2D.disabled = true
+	can_atk = true
+
+
+func _on_area_2d_3_area_entered(area):
+	if area.is_in_group("hurt"):
+		queue_free()

@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=3 uid="uid://odw1cherewnw"]
+
+[sub_resource type="GDScript" id="GDScript_s6ds7"]
+script/source = "extends Node2D
+
+@onready var enemy = preload(\"res://enemy_track.tscn\")
+
+
+
+
+func _on_timer_timeout():
+	var ene = enemy.instantiate()
+	ene.position = position
+	get_parent().get_node(\"spawn1\").add_child(ene)
+"
+
+[node name="spawn" type="Node2D"]
+script = SubResource("GDScript_s6ds7")
+
+[node name="Timer" type="Timer" parent="."]
+autostart = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
